@@ -7,20 +7,33 @@ on:
 
 jobs:
   actionsLint:
+    name: Actions Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Github Actions Lint
+      - name: Check Github Actions
         uses: reviewdog/action-actionlint@v1
         with: 
           reporter: github-check
           fail_on_error: true
 
   languageLint:
+    name: Language Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Github Actions Lint
+      - name: Check insensitive language
+        uses: reviewdog/action-alex@v1
+        with: 
+          reporter: github-check
+          fail_on_error: true
+
+  englishLint:
+    name: English Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check language
         uses: reviewdog/action-languagetool@v1
         with:
             reporter: github-check
