@@ -27,7 +27,7 @@ skills:
       - Android SDK
       - Compose
       - Coroutines
-      - CI/CD: Github Actions & GitlabCI
+      - Github Actions & GitlabCI
   - category: Other
     skill:
       - Business Analysis
