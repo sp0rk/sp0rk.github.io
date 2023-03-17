@@ -55,7 +55,7 @@ experience:
       fugiat nulla pariatur.
     technologies_used: |
       Go, Angular, Typescript, C++
- 
+
   - role: Researcher
     time: 2016-2020
     company: Microsoft
@@ -70,13 +70,13 @@ experience:
 
 projects:
   - title: Cool Project
-    link: #
+    link:
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
 
   - title: Cool Project
-    link: #
+    link:
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
