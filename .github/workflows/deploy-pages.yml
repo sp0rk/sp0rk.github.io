@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   actionsLint:
     name: Actions Lint
@@ -71,14 +74,14 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Convert HTML to PDF
         uses: fifsky/html-to-pdf-action@master
         with:
-          htmlFile: ./docs/index.html
-          outputFile: ./julian_jurec_resume.pdf
+          htmlFile: index.html
+          outputFile: julian_jurec_resume.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Upload PDF
-        uses: actions/upload-artifact@v1
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          name: julian_jurec_resume
-          path: julian_jurec_resume.pdf
+          file_pattern: 'julian_jurec_resume.pdf'
