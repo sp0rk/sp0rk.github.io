@@ -71,9 +71,14 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Convert html to pdf
+      - name: Convert HTML to PDF
         uses: fifsky/html-to-pdf-action@master
         with:
-          htmlFile: ./index.html
+          htmlFile: ./docs/index.html
           outputFile: ./julian_jurec_resume.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+      - name: Upload PDF
+        uses: actions/upload-artifact@v1
+        with:
+          name: julian_jurec_resume
+          path: julian_jurec_resume.pdf
