@@ -55,6 +55,7 @@ jobs:
             _data
 
   deploy:
+    name: Deploy
     needs: [actionsLint, languageLint, yamlLint, englishLint]
     runs-on: ubuntu-latest
     steps:
@@ -64,3 +65,15 @@ jobs:
         with:
           folder: .
           target-folder: docs
+
+  buildPdf:
+    name: Build PDF
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Convert html to pdf
+        uses: fifsky/html-to-pdf-action@master
+        with:
+          htmlFile: ./index.html
+          outputFile: ./julian_jurec_resume.pdf
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
