@@ -78,7 +78,7 @@ jobs:
       - name: html to pdf
         uses: misaelnieto/web_to_pdf_action@master
         with:
-          webPageURL: https://sproogen.github.io/modern-resume-theme/
+          webPageURL: https://sp0rk.github.io/
           outputFile: julian_jurec_resume.pdf
           usePuppeteer: true
           useScreen: true
