@@ -75,11 +75,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Convert HTML to PDF
-        uses: fifsky/html-to-pdf-action@master
+      - name: html to pdf
+        uses: misaelnieto/web_to_pdf_action@master
         with:
-          htmlFile: index.html
+          webPageURL: https://sp0rk.github.io
           outputFile: julian_jurec_resume.pdf
+          usePuppeteer: true
+          useScreen: true
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Upload PDF
         uses: stefanzweifel/git-auto-commit-action@v4
