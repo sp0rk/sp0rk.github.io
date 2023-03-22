@@ -18,7 +18,13 @@ youtube_username: JulianJurec
 
 additional_links:
   - title: Resume PDF download
-    icon: fa-solid fa-file-pdf
+    icon: fab fa-solid fa-file-pdf
+    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
+  - title: Resume PDF download
+    icon: fa-file-pdf
+    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
+  - title: Resume PDF download
+    icon: fab fa-file-pdf
     url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
 
 about_content: | # this will include new lines to allow paragraphs
