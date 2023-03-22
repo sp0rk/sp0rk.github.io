@@ -88,25 +88,8 @@ jobs:
         with:
           webPageURL: https://sp0rk.github.io/
           outputFile: julian_jurec_resume2.pdf
-          usePuppeteer: false
-          useScreen: true
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-      - name: html to pdf3
-        uses: misaelnieto/web_to_pdf_action@master
-        with:
-          webPageURL: https://sp0rk.github.io/
-          outputFile: julian_jurec_resume3.pdf
           usePuppeteer: true
-          useScreen: false
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-      - name: html to pdf4
-        uses: misaelnieto/web_to_pdf_action@master
-        with:
-          webPageURL: https://sp0rk.github.io/
-          outputFile: julian_jurec_resume4.pdf
-          usePuppeteer: false
-          useScreen: false
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          useScreen: true
       - name: Upload PDF
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
