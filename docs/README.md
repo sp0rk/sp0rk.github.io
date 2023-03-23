@@ -25,6 +25,8 @@
 
 Automated with an unhealthy amount of Github Actions
 
+Thanks to [James Grant](https://github.com/sproogen/modern-resume-theme) for the template
+
 <!---------------------------------------------------------------------------->
 
 [Download Button]: https://img.shields.io/badge/Download%20PDF-2986cc?style=for-the-badge&logoColor=white&logo=DocuSign
