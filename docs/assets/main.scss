@@ -3,3 +3,8 @@
 ---
 
 @import 'modern-resume-theme';
+
+.row {
+	background: aqua;
+	page-break-inside: avoid !important;	
+}
