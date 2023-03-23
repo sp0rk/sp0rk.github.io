@@ -66,7 +66,7 @@ content:
         caption: 2015 - 2019
         sub_title: BEng Computer Science
         description: |
-          My engineering thesis project was a language learning mobile app. It used convolutional neural networks to construct a deck of flashcards out of photos of everyday objects
+          My engineering thesis project was a language learning mobile app. It used convolutional neural networks to construct a deck of flashcards out of photos of everyday objects.
 
   - title: A Little More About Me
     layout: text
