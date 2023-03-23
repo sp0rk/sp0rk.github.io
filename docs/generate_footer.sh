@@ -1,0 +1,1 @@
+echo -e "\nfooter_show_references: true\nreferences_title: Last updated `date -I`. For up-to-date version visit sp0rk.github.io"

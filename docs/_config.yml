@@ -123,5 +123,7 @@ sass:
 plugins:
   - jekyll-seo-tag
 
+# --------------------------------------------------------------------------------------------------------------------------------------
+
 footer_show_references: true
-references_title: Last updated 2023-03-23. For up-to-date version visit [sp0rk.github.io](https://sp0rk.github.io)
+references_title: Last updated 2023-03-23. For up-to-date version visit sp0rk.github.io
