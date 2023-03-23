@@ -47,7 +47,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: Applover
         sub_title: Android Developer
         caption: 2017 - Present
@@ -61,7 +61,7 @@ content:
 
           A selection of noteworthy projects I've been involved with can be found listed under the Projects section of this resume.
 
-      - layout: left
+      - layout: top-middle
         title: GSM Billing Ltd.
         sub_title: Mobile developer
         caption: 2016 - 2017
@@ -73,7 +73,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: Wrocław University of Science and Technology
         caption: 2015 - 2019
         sub_title: BEng Computer Science
