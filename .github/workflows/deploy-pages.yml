@@ -63,6 +63,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Add footer
+        run: bash generate_footer.sh >> _config.yml
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
