@@ -5,7 +5,6 @@ version: 2
 # Personal info
 name: Julian Jurec
 title: Android Developer
-email: julian.jurec@gmail.com
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -14,56 +13,10 @@ github_username: sp0rk
 stackoverflow_username: "4961317"
 instagram_username: sp0rque
 linkedin_username: julianjurec
-youtube_username: JulianJurec
 
 additional_links:
   - title: Resume PDF download
-    icon: fas fa-file-pdf
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
     icon: far fa-file-pdf
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fal fa-file-pdf
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fat fa-file-pdf
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fat fa-file-arrow-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: far fa-file-arrow-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fal fa-file-arrow-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fas fa-file-arrow-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fas fa-circle-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: far fa-circle-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fal fa-circle-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fat fa-circle-down
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fat fa-download
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: far fa-download
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fas fa-download
-    url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
-  - title: Resume PDF download
-    icon: fal fa-download
     url: https://github.com/sp0rk/sp0rk.github.io/raw/main/julian_jurec_resume.pdf
 
 about_content: | # this will include new lines to allow paragraphs
