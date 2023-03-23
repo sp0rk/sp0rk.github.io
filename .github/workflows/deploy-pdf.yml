@@ -1,0 +1,32 @@
+---
+name: Deploy PDF
+
+on:
+  deployment
+  deployment_status
+  page_build
+
+permissions:
+  contents: write
+
+jobs:
+  deployPDF:
+    name: Deploy PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Sleep for 90 seconds to allow for pages deployment
+        run: sleep 90s
+        shell: bash
+      - name: Generate PDF
+        uses: misaelnieto/web_to_pdf_action@master
+        with:
+          webPageURL: https://sp0rk.github.io/
+          outputFile: julian_jurec_resume.pdf
+          usePuppeteer: true
+          useScreen: true
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+      - name: Upload PDF
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: 'julian_jurec_resume.pdf'
