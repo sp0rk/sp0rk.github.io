@@ -68,29 +68,3 @@ jobs:
         with:
           folder: .
           target-folder: docs
-
-  buildPdf:
-    name: Build PDF
-    needs: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: html to pdf1
-        uses: misaelnieto/web_to_pdf_action@master
-        with:
-          webPageURL: https://sp0rk.github.io/
-          outputFile: julian_jurec_resume1.pdf
-          usePuppeteer: true
-          useScreen: true
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-      - name: html to pdf2
-        uses: misaelnieto/web_to_pdf_action@master
-        with:
-          webPageURL: https://sp0rk.github.io/
-          outputFile: julian_jurec_resume2.pdf
-          usePuppeteer: true
-          useScreen: true
-      - name: Upload PDF
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          file_pattern: 'julian_jurec_resume*.pdf'
