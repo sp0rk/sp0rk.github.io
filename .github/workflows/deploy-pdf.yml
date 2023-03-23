@@ -2,9 +2,9 @@
 name: Deploy PDF
 
 on:
-  push:
-    branches:
-      - gh-pages
+  deployment:
+  deployment_status:
+  page_build:
 
 permissions:
   contents: write
