@@ -84,8 +84,6 @@ content:
         title: GSM Billing Ltd.
         sub_title: Mobile developer
         caption: 2016 - 2017
-        quote: >
-          Working with Java, Retrofit, Butterknife, Gradle, Retrofit, Swift, Objective-C, Cocoapods, Alamofire, Parse.com
         description: |
           I developed a number of small internal apps for a British tele-comms company. We worked in a 4-person cross-platform team and cooperated with an offshore backend team. I learned a lot, picked my favourite platform to go forward and moved on during tech department restructuring.
 
