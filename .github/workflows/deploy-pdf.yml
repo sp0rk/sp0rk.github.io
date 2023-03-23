@@ -2,7 +2,7 @@
 name: Deploy PDF
 
 on:
-  page_build:
+  deployment_status:
 
 permissions:
   contents: write
