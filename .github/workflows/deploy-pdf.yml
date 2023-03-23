@@ -25,5 +25,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: pdf
-          create_branch: true
+          push_options: '--force'
           file_pattern: 'julian_jurec_resume.pdf'
