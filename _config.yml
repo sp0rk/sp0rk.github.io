@@ -1,48 +1,40 @@
 ---
 repository: sp0rk/sp0rk.github.io
 version: 2
+darkmode: never
 
-# Personal info
 name: Julian Jurec
 title: Android Developer
 email: julian.jurec@gmail.com
-
-# Dark Mode (true/false/never)
-darkmode: never
 
 github_username: sp0rk
 stackoverflow_username: "4961317"
 instagram_username: sp0rque
 linkedin_username: julianjurec
-
 additional_links:
   - title: Resume PDF download
     icon: far fa-file-pdf
     url: https://github.com/sp0rk/sp0rk.github.io/raw/pdf/julian_jurec_resume.pdf
 
-about_content: | # this will include new lines to allow paragraphs
-  123456Hi, my name's Brett and I'm a senior network system adminiaaastasdasrataaor. As well sdfsas administraaating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+# --------------------------------------------------------------------------------------------------------------------------------------
 
-  I am most skilled in: <mark>AWS</mark> anad <mark>Eating Pizza</mark>
+about_content: |
+  (TODO)
+
+# --------------------------------------------------------------------------------------------------------------------------------------
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            url: github.com/sproogen/modern-resume-theme
-            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            #   icon: fab fa-github
-            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: (TODO)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.as
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          (TODO)
+        description: |
+          (TODO)
+
+# --------------------------------------------------------------------------------------------------------------------------------------
 
   - title: Experience
     layout: list
@@ -52,14 +44,41 @@ content:
         sub_title: Android Developer
         caption: 2017 - Present
         quote: >
-          A software house
+          (TODO)
         description: |
           I watched and helped Applover grow from a team of a dozen to around 150 people. Apart from working with a number of clients on various projects I worked on designing, implementing, and maintaining multiple processes used in day-to-day work, including:
           - Software development processes - git workflow, automation, quality metrics and requirements, analytics, definition of done, release checklist, etc.
           - Pre-development project processing - requirements discovery, system design workshops, specification crafting, team onboarding, kickoff checklist, etc.
-          - Developer recruitment process
+          - Developer recruitment process (TODO)
 
           A selection of noteworthy projects I've been involved with can be found listed under the Projects section of this resume.
+
+      - layout: top-middle
+        title: Applover
+        sub_title: Android Team Lead
+        caption: (TODO)
+        quote: >
+          (TODO)
+        description: |
+          (TODO)
+
+      - layout: top-middle
+        title: Applover
+        sub_title: Business analyst
+        caption: (TODO)
+        quote: >
+          (TODO)
+        description: |
+          (TODO)
+
+      - layout: top-middle
+        title: Software Development Academy
+        sub_title: Teacher
+        caption: (TODO)
+        quote: >
+          (TODO)
+        description: |
+          (TODO)
 
       - layout: top-middle
         title: GSM Billing Ltd.
@@ -68,7 +87,9 @@ content:
         quote: >
           Working with Java, Retrofit, Butterknife, Gradle, Retrofit, Swift, Objective-C, Cocoapods, Alamofire, Parse.com
         description: |
-          I developed a number of small internal apps for a British tele-comms company. We worked in a 4-person cross-platform team and cooperated with an offshore backend team.
+          I developed a number of small internal apps for a British tele-comms company. We worked in a 4-person cross-platform team and cooperated with an offshore backend team. I learned a lot, picked my favourite platform to go forward and moved on during tech department restructuring.
+
+# --------------------------------------------------------------------------------------------------------------------------------------
 
   - title: Education
     layout: list
@@ -76,9 +97,11 @@ content:
       - layout: top-middle
         title: Wrocław University of Science and Technology
         caption: 2015 - 2019
-        sub_title: BEng Computer Science
+        sub_title: Faculty of Computer Science and Management
         quote: >
-          Faculty of Computer Science and Management
+          BEng Computer Science
+
+# --------------------------------------------------------------------------------------------------------------------------------------
 
   - title: Out of office
     layout: text
@@ -89,6 +112,8 @@ content:
       - No Limit Texas Hold'em poker
       - Jazz
 
+# --------------------------------------------------------------------------------------------------------------------------------------
+
 remote_theme: sproogen/resume-theme
 
 sass:
@@ -97,3 +122,6 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+
+footer_show_references: true
+references_title: Last updated 2023-03-23. For up-to-date version visit [sp0rk.github.io](https://sp0rk.github.io)
