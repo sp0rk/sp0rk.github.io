@@ -113,19 +113,16 @@ content:
     layout: text
     content: |
       ## Preferred Android tech stack:
-      Compose, Room, Coroutines
-      <br>
+      - Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines
 
       ## Also Fluent in:
-      RxJava, Databinding
-      <br>
+      - RxJava, Databinding
 
       ## Miscellaneous dev skills:
-      gitlab-ci
-      <br>
+      - gitlab-ci
 
       ## Languages:
-      Proficient Polish and English; in speech and writing
+      - Proficient Polish and English; in speech and writing
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
