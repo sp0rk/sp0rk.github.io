@@ -4,6 +4,13 @@
 
 @import 'modern-resume-theme';
 
-.row {
+
+.details {
+	background: green
+	page-break-inside: avoid !important;	
+}
+
+.content {
+	background: red
 	page-break-inside: avoid !important;	
 }
