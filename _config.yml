@@ -18,6 +18,7 @@ additional_links:
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
+about_title: Into
 about_content: |
   (TODO)
 
@@ -32,21 +33,21 @@ content:
         sub_title: Android Developer
         caption: 2017 - Present
         quote: >
-          (TODO)
+          Watched and helped Applover grow from a team of a dozen to around 150 people
         description: |
-          I watched and helped Applover grow from a team of a dozen to around 150 people. Apart from working with a number of clients on various projects I worked on designing, implementing, and maintaining multiple processes used in day-to-day work, including:
+          Apart from working with a number of clients on various projects I worked on designing, implementing, and maintaining multiple processes used in day-to-day work, including:
           - Software development processes - git workflow, automation, quality metrics and requirements, analytics, definition of done, release checklist, etc.
           - Pre-development project processing - requirements discovery, system design workshops, specification crafting, team onboarding, kickoff checklist, etc.
-          - Developer recruitment process (TODO)
+          - Developer recruitment process - role requirements, 2-stage interview, loop meetings, tech onboarding
 
-          A selection of noteworthy projects I've been involved with can be found listed under the Projects section of this resume.
+          A selection of noteworthy projects I've been involved with can be found listed under the Projects section of this resume
 
       - layout: top-middle
         title: Applover
         sub_title: Android Team Lead
         caption: 2019 - Present
         quote: >
-          I led the 5-7 person Android Team in Applover and helped build the Flutter team around one of the teammates.
+          I led the 5-7 person Android Team in Applover and helped build the Flutter team around one of the teammates
         description: |
           - Conducted most of the interviews for new candidates
           - Helped coordinate and divide work between developers, advising on project assignments
@@ -59,7 +60,7 @@ content:
         sub_title: Business analyst
         caption: 2022 - Present
         quote: >
-          I was asked to dedicate some time to share my tech-focused perspective with our BA team to deliver new value to the clients.
+          I was asked to dedicate some time to share my tech-focused perspective with our BA team to deliver new value to the clients
         description: |
           - Participated in sales calls as a tech expert
           - Helped define business requirements and suggested tech solutions to fulfill them
@@ -83,11 +84,13 @@ content:
         sub_title: Mobile developer
         caption: 2016 - 2017
         description: |
-          I developed a number of small internal apps for a British tele-comms company. We worked in a 4-person cross-platform team and cooperated with an offshore backend team. I learned a lot, picked my favourite platform to go forward and moved on during tech department restructuring.
+          - Developed a number of small internal apps for a British tele-comms company
+          - Worked in a 4-person cross-platform team and cooperated with an offshore backend team
+          - Learned a lot, picked my favourite platform to go forward and moved on during tech department restructuring
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
-  - title: Projects
+  - title: Some noteworthy projects
     layout: list
     content:
       - layout: top-middle
