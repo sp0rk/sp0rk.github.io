@@ -20,7 +20,13 @@ additional_links:
 
 about_title: Intro
 about_content: |
-  (TODO)
+  I've been working as a mobile developer since 2016. Most of this time I spent with Applover - a software agency.
+
+  My role there evolved a lot, from solely coding to leadership to business analysis. All those responsibilities took up varying portions of my time at various times.
+  I listed them in separate listings for clarity. Please take note of them being concurrent, not strictly sequential.
+
+  Due to Applover's business model I was involved in quite a lot of different projects, with varying tech stacks, team structures, and domains.
+  I listed some in the Projects section and I am always happy to share some insight into the others during the interview.
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -30,7 +36,7 @@ content:
     content:
       - layout: top-middle
         title: Applover
-        sub_title: Android Developer
+        sub_title: Android developer
         caption: 2017 - Present
         quote: >
           Watched and helped Applover grow from a team of a dozen to around 150 people
@@ -44,10 +50,10 @@ content:
 
       - layout: top-middle
         title: Applover
-        sub_title: Android Team Lead
+        sub_title: Android team lead
         caption: 2019 - Present
         quote: >
-          Led a 5-7 person Android Team
+          Led a 5-7 person Android team
         description: |
           - Conducted most of the interviews for new candidates
           - Helped coordinate and divide work between developers, advising on project assignments
@@ -106,17 +112,17 @@ content:
   - title: Skills
     layout: text
     content: |
-      # Preferred Android tech stack:
+      ## Preferred Android tech stack:
       Compose, Room, Coroutines
 
       ## Also Fluent in:
       RxJava, Databinding
 
-      ### Miscellaneous dev skills:
+      ## Miscellaneous dev skills:
       gitlab-ci
 
-      Languages:
-        Proficient Polish and English; in speech and writing
+      ## Languages:
+      Proficient Polish and English; in speech and writing
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
