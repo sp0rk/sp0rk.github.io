@@ -4,6 +4,22 @@
 
 @import 'modern-resume-theme';
 
-.row {
+.details {
 	page-break-inside: avoid !important;	
+}
+
+p {
+	page-break-inside: avoid !important;	
+}
+
+li {
+	page-break-inside: avoid !important;	
+}
+
+.container {
+    margin-top: 20px; 
+}
+
+.footer-container {
+    margin-top: 0px; 
 }
