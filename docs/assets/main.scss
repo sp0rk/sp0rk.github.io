@@ -5,12 +5,25 @@
 @import 'modern-resume-theme';
 
 
-.p {
-	background: green;
+p {
 	page-break-inside: avoid !important;	
 }
 
-.li {
-	background: red;
+li {
 	page-break-inside: avoid !important;	
+}
+
+.footer-container {
+	display: none;
+    margin-top: 0px; 
+}
+
+.container {
+    margin-top: 20px; 
+}
+
+@media print {
+	.footer-container {
+		display: block;
+	}	
 }
