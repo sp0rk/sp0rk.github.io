@@ -57,7 +57,7 @@ content:
         description: |
           - Conducted most of the interviews for new candidates
           - Helped coordinate and divide work between developers, advising on project assignments
-          - Fostered a friendly and productive atmosphere and working conditions in the team
+          - Fostered a friendly and productive atmosphere of growth for the team
           - Led tech stack innovations and automation tools implementation
           - Handled numerous project specifications, estimates and design workshops
 
@@ -97,15 +97,22 @@ content:
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
-  - title: Some noteworthy projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: (TODO)
-        quote: >
-          (TODO)
-        description: |
-          (TODO)
+  - title: Projects
+    layout: text
+    content: |
+      I've been more or less involved in well over 20 projects of varying sizes over the years. Here's four long-term projects I enjoy talking about the most:
+
+      ## Glovo
+      - Designed a cross-platform system to deliver a fully dynamic, backend-driven, recursive help tree in a food delivery app
+
+      ## Bodycoach
+      - Ported design-award winning iOS app to Android with full feature parity, beautiful animations and many custom widgets
+
+      ## Razer
+      - Worked on a high-performance built-in camera app for Razer Phone. Performance-testing, HAL/Camera2Api, Canvas-based UI
+
+      ## Plenty of Fish
+      - Led a total app redesign/rebrand in a massive, legacy codebase in a feature-flag A/B test scenario
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -113,13 +120,16 @@ content:
     layout: text
     content: |
       ## Preferred Android tech stack:
-      - Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines  Compose, Room, Coroutines
+      - Kotlin, Coroutines, Flows, Room, Koin, Compose, MVVM, Clean architecture
 
       ## Also Fluent in:
-      - RxJava, Databinding
+      - Java, Dagger, Hilt, RxJava, Viewbinding, Databinding, CQRS, Firebase, DataStore, Apollo, Scarlet, Gradle, Ktor, Kotlin Multiplatform, LiveData, Motion Layout
 
-      ## Miscellaneous dev skills:
-      - gitlab-ci
+      ## Miscellaneous skills:
+      - Regularly use Python, JS, & sh for scripting
+      - Very experienced with legacy code, both in maintenance and refactoring
+      - GitLab CI/CD, Github Actions, strong git ethics, design patterns, system architecture design, coordinating releases at scale
+      - Leadership skills, business analysis, technical writing, passion for teaching & presenting, process design
 
       ## Languages:
       - Proficient Polish and English; in speech and writing
