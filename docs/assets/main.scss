@@ -17,22 +17,6 @@ li {
     margin-top: 20px; 
 }
 
-@media screen {
-	.icons {
-		display: block;
-	}
-	.footer-container {
-		display: none;
-	    margin-top: 0px; 
-	}
-}
-
-@media print {
-	.icons {
-		display: none;
-	}
-	.footer-container {
-		display: block;
-	    margin-top: 0px; 
-	}	
+.footer-container {
+    margin-top: 0px; 
 }
