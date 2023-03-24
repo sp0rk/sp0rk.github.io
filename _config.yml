@@ -18,14 +18,14 @@ additional_links:
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
-about_title: Into
+about_title: Intro
 about_content: |
   (TODO)
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
 content:
-  - title: Experience
+  - title: Work Experience
     layout: list
     content:
       - layout: top-middle
@@ -47,7 +47,7 @@ content:
         sub_title: Android Team Lead
         caption: 2019 - Present
         quote: >
-          I led the 5-7 person Android Team in Applover and helped build the Flutter team around one of the teammates
+          Led a 5-7 person Android Team
         description: |
           - Conducted most of the interviews for new candidates
           - Helped coordinate and divide work between developers, advising on project assignments
@@ -60,7 +60,7 @@ content:
         sub_title: Business analyst
         caption: 2022 - Present
         quote: >
-          I was asked to dedicate some time to share my tech-focused perspective with our BA team to deliver new value to the clients
+          Shared my tech-focused perspective with our BA team to deliver new value to the clients
         description: |
           - Participated in sales calls as a tech expert
           - Helped define business requirements and suggested tech solutions to fulfill them
@@ -83,8 +83,9 @@ content:
         title: GSM Billing Ltd.
         sub_title: Mobile developer
         caption: 2016 - 2017
+        quote: >
+          Developed a number of small internal apps for a British tele-comms company
         description: |
-          - Developed a number of small internal apps for a British tele-comms company
           - Worked in a 4-person cross-platform team and cooperated with an offshore backend team
           - Learned a lot, picked my favourite platform to go forward and moved on during tech department restructuring
 
@@ -99,6 +100,23 @@ content:
           (TODO)
         description: |
           (TODO)
+
+# --------------------------------------------------------------------------------------------------------------------------------------
+
+  - title: Skills
+    layout: text
+    content: |
+      # Preferred Android tech stack:
+      Compose, Room, Coroutines
+
+      ## Also Fluent in:
+      RxJava, Databinding
+
+      ### Miscellaneous dev skills:
+      gitlab-ci
+
+      Languages:
+        Proficient Polish and English; in speech and writing
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
