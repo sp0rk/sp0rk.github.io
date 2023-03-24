@@ -44,31 +44,39 @@ content:
       - layout: top-middle
         title: Applover
         sub_title: Android Team Lead
-        caption: (TODO)
+        caption: 2019 - Present
         quote: >
-          (TODO)
+          I led the 5-7 person Android Team in Applover and helped build the Flutter team around one of the teammates.
         description: |
-          (TODO)
+          - Conducted most of the interviews for new candidates
+          - Helped coordinate and divide work between developers, advising on project assignments
+          - Fostered a friendly and productive atmosphere and working conditions in the team
+          - Led tech stack innovations and automation tools implementation
+          - Handled numerous project specifications, estimates and design workshops
 
       - layout: top-middle
         title: Applover
         sub_title: Business analyst
-        caption: (TODO)
+        caption: 2022 - Present
         quote: >
-          (TODO)
+          I was asked to dedicate some time to share my tech-focused perspective with our BA team to deliver new value to the clients.
         description: |
-          (TODO)
+          - Participated in sales calls as a tech expert
+          - Helped define business requirements and suggested tech solutions to fulfill them
+          - Provided ballpark estimates
+          - Conducted tech audits of existing products and market research for competition and potential improvements
 
       - layout: top-middle
         title: Software Development Academy
         sub_title: Teacher
         caption: 2017 - 2019
+        quote: >
+          Taught Java and Python classes in both Polish and English
         description: |
-          I taught java and python classes, specialising in the introductory sections. I also conducted shell+git proficiency workshops for junior developers. 
-
-          I helped SDA expand to the Baltics by leading the way in the Estonian branch, starting couple of courses in Tallinn. 
-
-          A significant number of my students are now successful developers, working in IT for years.
+          - Specialised in the introductory sections as it felt most rewarding to me
+          - Conducted shell+git proficiency workshops
+          - Helped expand the offering to the Baltics by leading the way in the Estonian branch
+          - A significant number of my students are now successful developers, working in IT for years
 
       - layout: top-middle
         title: GSM Billing Ltd.
