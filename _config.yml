@@ -24,18 +24,6 @@ about_content: |
 # --------------------------------------------------------------------------------------------------------------------------------------
 
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: top-middle
-        title: (TODO)
-        quote: >
-          (TODO)
-        description: |
-          (TODO)
-
-# --------------------------------------------------------------------------------------------------------------------------------------
-
   - title: Experience
     layout: list
     content:
@@ -74,11 +62,13 @@ content:
       - layout: top-middle
         title: Software Development Academy
         sub_title: Teacher
-        caption: (TODO)
-        quote: >
-          (TODO)
+        caption: 2017 - 2019
         description: |
-          (TODO)
+          I taught java and python classes, specialising in the introductory sections. I also conducted shell+git proficiency workshops for junior developers. 
+
+          I helped SDA expand to the Baltics by leading the way in the Estonian branch, starting couple of courses in Tallinn. 
+
+          A significant number of my students are now successful developers, working in IT for years.
 
       - layout: top-middle
         title: GSM Billing Ltd.
@@ -86,6 +76,18 @@ content:
         caption: 2016 - 2017
         description: |
           I developed a number of small internal apps for a British tele-comms company. We worked in a 4-person cross-platform team and cooperated with an offshore backend team. I learned a lot, picked my favourite platform to go forward and moved on during tech department restructuring.
+
+# --------------------------------------------------------------------------------------------------------------------------------------
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: (TODO)
+        quote: >
+          (TODO)
+        description: |
+          (TODO)
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
