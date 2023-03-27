@@ -29,6 +29,25 @@ about_content: |
 # --------------------------------------------------------------------------------------------------------------------------------------
 
 content:
+  - title: Projects
+    layout: text
+    content: |
+      I've been more or less involved in well over 20 projects of varying sizes over the years. Here's four long-term projects I enjoy talking about the most:
+
+      ## Glovo
+      - Designed a cross-platform system to deliver a fully dynamic, backend-driven, recursive help tree in a food delivery app
+
+      ## Bodycoach
+      - Ported design-award winning iOS app to Android with full feature parity, beautiful animations and many custom widgets
+
+      ## Razer
+      - Worked on a high-performance built-in camera app for Razer Phone. Performance-testing, HAL/Camera2Api, Canvas-based UI
+
+      ## Plenty of Fish
+      - Led a total app redesign/rebrand in a massive, legacy codebase in a feature-flag A/B test scenario
+
+# --------------------------------------------------------------------------------------------------------------------------------------
+
   - title: Work Experience
     layout: list
     content:
@@ -95,25 +114,6 @@ content:
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
-  - title: Projects
-    layout: text
-    content: |
-      I've been more or less involved in well over 20 projects of varying sizes over the years. Here's four long-term projects I enjoy talking about the most:
-
-      ## Glovo
-      - Designed a cross-platform system to deliver a fully dynamic, backend-driven, recursive help tree in a food delivery app
-
-      ## Bodycoach
-      - Ported design-award winning iOS app to Android with full feature parity, beautiful animations and many custom widgets
-
-      ## Razer
-      - Worked on a high-performance built-in camera app for Razer Phone. Performance-testing, HAL/Camera2Api, Canvas-based UI
-
-      ## Plenty of Fish
-      - Led a total app redesign/rebrand in a massive, legacy codebase in a feature-flag A/B test scenario
-
-# --------------------------------------------------------------------------------------------------------------------------------------
-
   - title: Skills
     layout: text
     content: |
@@ -150,7 +150,6 @@ content:
     layout: text
     content: |
       Out of work I'm mostly into:
-      - Machine learning (mostly NLP & CV)
       - Rock climbing
       - Nature Photography
       - No Limit Texas Hold'em poker
