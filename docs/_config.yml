@@ -4,12 +4,10 @@ version: 2
 darkmode: never
 
 name: Julian Jurec
-title: Android Developer
+title: Software Consultant
 email: julian.jurec@gmail.com
 
 github_username: sp0rk
-stackoverflow_username: "4961317"
-instagram_username: sp0rque
 linkedin_username: julianjurec
 additional_links:
   - title: Resume PDF download
@@ -20,97 +18,93 @@ additional_links:
 
 about_title: Intro
 about_content: |
-  I've been working as a mobile developer since 2016. Most of this time I spent with Applover - a software agency.
-  My role there has evolved a lot, from solely coding to leadership to business analysis. All those responsibilities took up varying portions of my time at various times.
-
-  I was involved in quite a lot of different projects, with varying tech stacks, team structures, and domains.
-  I listed some in the Projects section and I am always happy to share some insight into the others during the interview.
+  I've worked as a software consultant since 2016. My role varied, from solely coding to business analysis to leadership.
+  I've been involved in well over 20 projects of varying sizes, scopes, and domains over the years. 
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
 content:
-  - title: Projects
-    layout: text
-    content: |
-      I've been more or less involved in well over 20 projects of varying sizes over the years. Here's four long-term projects I enjoy talking about the most:
-
-      ## Glovo
-      - Designed a cross-platform system to deliver a fully dynamic, backend-driven, recursive help tree in a food delivery app
-
-      ## Bodycoach
-      - Ported design-award winning iOS app to Android with full feature parity, beautiful animations and many custom widgets
-
-      ## Razer
-      - Worked on a high-performance built-in camera app for Razer Phone. Performance-testing, HAL/Camera2Api, Canvas-based UI
-
-      ## Plenty of Fish
-      - Led a total app redesign/rebrand in a massive, legacy codebase in a feature-flag A/B test scenario
-
-# --------------------------------------------------------------------------------------------------------------------------------------
-
-  - title: Work Experience
+  - title: Jobs
     layout: list
     content:
       - layout: top-middle
-        title: Applover
-        sub_title: Android developer
-        caption: 2017 - Present
-        quote: >
-          Watched and helped Applover grow from a team of a dozen to around 150 people
+        title: Loomis Pay
+        sub_title: Android developer (2023 - Now)
         description: |
-          Apart from working with a number of clients on various projects I worked on designing, implementing, and maintaining multiple processes used in day-to-day work, including:
-          - Software development processes - git workflow, automation, quality metrics and requirements, analytics, definition of done, release checklist, etc.
-          - Pre-development project processing - requirements discovery, system design workshops, specification crafting, team onboarding, kickoff checklist, etc.
-          - Developer recruitment process - role requirements, 2-stage interview, loop meetings, tech onboarding
+          - Built Loomis Teller - a green-field payment facilitator app, connecting multiple payment providers with multiple integrations. 
+          - Maintained beautiful partner integration documentation: RS232/USB, MDB, Local HTTP server, app2app, Cloud.
+          - Worked in PCI DSS compliant environment
+      - layout: top-middle
+        sub_title: Product Owner (2025 - Now)
+        description: |
+          - Owned Loomis Teller, made decisions, prioritised, externally represented the product
+          - Guided development team by managing backlog and communicating with stakeholders 
 
-          A selection of noteworthy projects I've been involved with can be found listed under the Projects section of this resume
+      - layout: top-middle
+        title: DNA Technology
+        sub_title: Software Consultant (2023 - Now)
+        description: |
+          - Worked with DNA's clients, growing the relationships while caring for DNA's internal environment.
+      - layout: top-middle
+        sub_title: Team Lead (2025 - Now)
+        description: |
+          - Facilitated growth and well-being for several team members
 
       - layout: top-middle
         title: Applover
-        sub_title: Android team lead
-        caption: 2019 - Present
-        quote: >
-          Led a 5-7 person Android team
+        sub_title: Android developer (2017 - 2023)
         description: |
-          - Conducted most of the interviews for new candidates
-          - Helped coordinate and divide work between developers, advising on project assignments
-          - Fostered a friendly and productive atmosphere of growth for the team
-          - Led tech stack innovations and automation tools implementation
-          - Handled numerous project specifications, estimates and design workshops
-
+          - Developed modern, maintainable, scalable green-field code.
+          - Supported and maintaned massive legacy codebases.
+          - Supported numerous clients in design, implementation, and maintenance of their software products.
+          - Built processes and metrics to improve their way of work.
       - layout: top-middle
-        title: Applover
-        sub_title: Business analyst
-        caption: 2022 - Present
-        quote: >
-          Shared my tech-focused perspective with our BA team to deliver new value to the clients
+        sub_title: Android team lead (2019 - 2023)
         description: |
-          - Participated in sales calls as a tech expert
-          - Helped define business requirements and suggested tech solutions to fulfill them
-          - Provided ballpark estimates
-          - Conducted tech audits of existing products and market research for competition and potential improvements
+          - Helped grow Applover from ~10 to ~150 people
+          - Cared for a team of 5-10 in their growth and well-being
+          - Led recruitment
+          - Led org-wide tech decisions
+      - layout: top-middle
+        sub_title: Business analyst (2022 - 2023)
+        description: |
+          - Had sales meetings as a tech expert
+          - Defined business requirements, built processes in the clients' environments
+          - Estimated, audited, conducted market research
 
       - layout: top-middle
         title: Software Development Academy
-        sub_title: Teacher
-        caption: 2017 - 2019
-        quote: >
-          Taught Java and Python classes in both Polish and English
+        sub_title: Coding teacher (2017 - 2019)
         description: |
-          - Specialised in the introductory sections as it felt most rewarding to me
+          - Taught Java and Python classes in both Polish and English
           - Conducted shell+git proficiency workshops
           - Helped expand the offering to the Baltics by leading the way in the Estonian branch
-          - A significant number of my students are now successful developers, working in IT for years
 
       - layout: top-middle
         title: GSM Billing Ltd.
-        sub_title: Mobile developer
-        caption: 2016 - 2017
-        quote: >
-          Developed a number of small internal apps for a British tele-comms company
+        sub_title: Mobile developer (2016 - 2017)
         description: |
-          - Worked in a 4-person cross-platform team and cooperated with an offshore backend team
-          - Learned a lot, picked my favourite platform to go forward and moved on during tech department restructuring
+          - Developed internal tools for a British tele-comms company in a small cross-platform team
+
+# --------------------------------------------------------------------------------------------------------------------------------------
+
+  - title: Projects
+    layout: text
+    content: |
+      ## Loomis Teller
+      - Built green-field payment facilitator app, connecting multiple payment providers with multiple integrations: RS232, MDB, Local HTTP server and others.
+
+      ## Glovo
+      - Designed a cross-platform, dynamic, backend-driven, recursive support tree in a food delivery app
+
+      ## Bodycoach
+      - Ported design-award winning iOS app to Android with fully custom UI and animations.
+
+      ## Razer
+      - Worked on Razer Phone's official camer app. Performance-testing, low-level Android code, Canvas-based UI.
+
+      ## Plenty of Fish
+      - Led a total rebrand in a massive, legacy codebase with A/B-test-based staged rollout
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -118,19 +112,17 @@ content:
     layout: text
     content: |
       ## Preferred Android tech stack:
-      - Kotlin, Coroutines, Flows, Room, Koin, Compose, MVVM, Clean architecture
+      - Kotlin, Coroutines, Flows, Room, Dagger/Hilt, Compose, MVVM, Clean arch.
 
       ## Also Fluent in:
-      - Java, Dagger, Hilt, RxJava, Viewbinding, Databinding, CQRS, Firebase, DataStore, Apollo, Scarlet, Gradle, Ktor, Kotlin Multiplatform, LiveData, Motion Layout
-
-      ## Miscellaneous skills:
-      - Regularly use Python, JS, & sh for scripting
-      - Very experienced with legacy code, both in maintenance and refactoring
-      - GitLab CI/CD, Github Actions, strong git ethics, design patterns, system architecture design, coordinating releases at scale
-      - Leadership skills, business analysis, technical writing, passion for teaching & presenting, process design
+      - Java, Python, JS, sh, most Android tools/patterns popular since 2015.
+      - AWS, GitLab CI/CD, Github Actions, Gradle Plugin development and pipeline optimisation
+      - System architecture design, process development, backlog management
+      - Leadership, business analysis, technical writing, client/stakeholder comms.
+      - Teaching, mentoring, public speaking & presenting,
 
       ## Languages:
-      - Proficient Polish and English; in speech and writing
+      - Proficient Polish and English
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -139,21 +131,8 @@ content:
     content:
       - layout: top-middle
         title: Wrocław University of Science and Technology
-        caption: 2015 - 2019
-        sub_title: Faculty of Computer Science and Management
-        quote: >
-          BEng Computer Science - thesis on convolutional neural networks
-
-# --------------------------------------------------------------------------------------------------------------------------------------
-
-  - title: Out of office
-    layout: text
-    content: |
-      Out of work I'm mostly into:
-      - Rock climbing
-      - Nature Photography
-      - No Limit Texas Hold'em poker
-      - Jazz
+        caption: Faculty of Computer Science and Management (2015 - 2019)
+        sub_title: BEng Computer Science - thesis on convolutional neural networks
 
 # --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -169,4 +148,4 @@ plugins:
 # --------------------------------------------------------------------------------------------------------------------------------------
 
 footer_show_references: true
-references_title: Last updated 2023-03-27. For up-to-date version visit sp0rk.github.io
+references_title: Last updated 2026-01-30. For up-to-date version visit sp0rk.github.io
